@@ -1,0 +1,24 @@
+.contenedorPrincipalApp{
+    border: 1px solid black;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.459);
+    width: 800px;
+}
+.contenedorPrincipalApp .titulosApp h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(0, 17, 255);
+}
+.contenedorPrincipalApp .titulosApp h2{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(0, 17, 255);
+}
+.imagenApp img{
+    width: 350px;
+    padding: 8px;
+}
+.footerApp p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}

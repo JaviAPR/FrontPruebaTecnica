@@ -1,0 +1,28 @@
+.navegacionWeb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+.navegacionWeb h3{
+   color: rgb(255, 0, 0);
+   font-weight: bold;
+}
+.navegacionWeb ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.navegacionWeb .lista li{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgba(0, 140, 255, 0.644);
+    border-radius: 20px;
+}
+.navegacionWeb .lista li:hover{
+    background-color: rgba(72, 168, 247, 0.644);;
+}

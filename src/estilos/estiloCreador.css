@@ -1,0 +1,30 @@
+.containerAutor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.autorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.autorContainer .nombre{
+    font-size: 30px;
+    color: orangered;
+}
+.autorContainer .foto img{
+    width: 400px;
+    border-radius: 25px;
+}
+.autorContainer .biografia{
+    margin-top: 20px;
+    width: 50%;
+}
+.autorContainer .biografia p{
+    font-size: 20px;
+    font-weight: 600;
+}

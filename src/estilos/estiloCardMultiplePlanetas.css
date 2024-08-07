@@ -1,0 +1,25 @@
+.cardContainerPlanets{
+    border: 3px solid rgb(255, 0, 0);
+    box-shadow: 10px 4px rgba(0, 0, 0, 0.185);
+    width: 90%;
+    margin: 10px;
+    border-radius: 30px;
+    height: 600px;
+}
+.cardContainerPlanets:hover{
+    transform: translateX(10px) translateY(-10px);
+    transition:ease-in-out .5s;
+
+}
+
+.cardContainerPlanets .title h2{
+    color: rgb(74, 6, 138);
+    font-weight: 800;
+}
+.planetImg img{
+    width: 250px;
+}
+.planetDescription p{
+    border-top: 3px solid rgb(255, 0, 0);
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.cardContainerMulti{
+    width:90%;
+    border: 3px solid blue;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.129);
+    border-radius: 25px;
+    margin: 10px;
+}
+.cardContainerMulti:hover{
+    transform: translateX(10px) translateY(-10px);
+    transition:ease-in-out .5s;
+}
+.cardContainerMulti .title{
+    background-color: rgb(255, 133, 133);
+    border-radius: 25px;
+}
+.cardContainerMulti h2{
+    color: blue;
+}
+.cardContainerMulti .heroImg img{
+    width: 150px;
+    height: 200px;
+}

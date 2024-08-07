@@ -1,0 +1,45 @@
+.cardContainerIndividual .title h2{
+    color: rgb(220, 0, 0);
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.cardContainerIndividual{
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 46, 252);
+    border-radius: 20px;
+    
+    
+}
+
+
+.cardContainerIndividual .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(110, 110, 255, 0.466);
+    height: 30%;
+    border-radius: 20px;
+    
+}
+.cardContainerIndividual .heroImg{
+    background-color: rgb(147, 221, 127);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardContainerIndividual .heroImg img{
+    width: 300px;
+    
+}
+.cardContainerIndividual .heroDescription{
+    border-top: 1px solid blue;
+    padding: 10px;
+}
+.cardContainerIndividual .heroDescription p{
+    font-family: sans-serif;
+
+}
+
